@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                  之前实验一直都是失败的.
+                  之前实验一直都是失败的,所以重新进行实验,主要吧最外面的名字给改了.
                    DESC
 
   s.homepage     = "https://github.com/Amuxiaomu/LMPrint"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LMPrint", "LMPrint/MMLog/*.{h,m}"
+  s.source_files  = "MMLog/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
